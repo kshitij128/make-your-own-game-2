@@ -1,4 +1,4 @@
-laser1,laser2;
+
 var chick2,chick2Img;
 var chick3,chick3Img;
 var chick4,chick4Img;
@@ -26,7 +26,6 @@ function setup() {
   chick4.addImage(chick4Img);
   chick4.scale=0.5;
 
-  laser1=createSprite(50,200,500,10)
 
   hen=createSprite(110,110,10,10);
   hen.addImage(henImg);
